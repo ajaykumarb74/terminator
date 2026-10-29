@@ -1,0 +1,8 @@
+# ~/.terminatorrc - Terminator key bindings.  Format:  bind <action> = <Ctrl+Shift+Alt+Key>
+# Actions: left right history_up history_down line_start line_end kill_to_start kill_to_end
+#          delete_word clear_screen exit_shell copy paste interrupt suspend history_search
+#          new_tab close_tab
+# Invalid or conflicting bindings are reported in the first tab and fall back to the default.
+bind line_start = Ctrl+B
+bind line_end   = Alt+E
+bind clear_screen = Ctrl+Shift+L

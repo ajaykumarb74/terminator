@@ -1,0 +1,12 @@
+# Things to try inside Terminator (see README.md)
+ls | wc -l
+echo "Files in $(basename $(pwd)): $(ls | wc -l)"
+echo 'literal: $HOME' "expanded: $HOME"
+sort < somefile.txt > sorted.txt
+sleep 100            # Ctrl+Z, then: jobs / bg %1 / fg %1 / Ctrl+C
+sleep 30 &
+multiWatch ["date +%T", "ls | wc -l"]      # Ctrl+C stops it
+./check.sh myprog.c
+source check.sh myprog.c
+bind                 # list hotkeys; `bind line_start Ctrl+B` changes one
+Ctrl+R               # history search;  Tab: file completion

@@ -1,0 +1,18 @@
+# Compiled binaries
+terminator
+*.o
+*.out
+
+# Temporary files
+*.log
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+
+# Windows metadata
+*:Zone.Identifier
+
+# OS files
+.DS_Store
